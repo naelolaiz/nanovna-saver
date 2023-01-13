@@ -50,7 +50,7 @@ def _max_retries(bandwidth: int, datapoints: int) -> int:
 
 class VNA:
     name = "VNA"
-    valid_datapoints = (101, 51, 11)
+    valid_datapoints = (301, 101, 51, 11)
     wait = 0.05
 
     def __init__(self, iface: Interface):
